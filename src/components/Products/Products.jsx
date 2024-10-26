@@ -67,8 +67,7 @@ const Products = () => {
                     {ProductsData.map((data) => (
                         <div key={data.id} 
                         data-aos="fade-up"
-                        data-aos-delay={data.aosDelay}
-                        key={data.id}
+                        data-aos-delay={data.aosDelay}                   
                         className="space-y-2">
                             <img src={data.img} alt="" className="h-[220px] w-[150px] object-cover rounded-md" />
                             <div>
@@ -80,11 +79,13 @@ const Products = () => {
                                 </div>
                             </div>
                         </div>
-                    ))};
-
-                    {/* product card */}
-
+                    ))}
                 </div>
+                {/* View All Button */}
+                <div>
+                    <button>View All Products</button>
+                </div>
+
             </div>
         </div>
     </div>
