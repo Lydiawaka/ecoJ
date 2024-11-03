@@ -88,18 +88,22 @@ const Footer = () => {
                 <a href="#">
                   <FaTiktok className="text-3xl" />
                 </a>
+                <p>@ waka_wears</p>
               </div>
               <div className="mt-6">
                 <div className="flex items-center gap-3">
                   <FaLocationArrow />
-                  <p>call me</p>
+                  <p>call us</p>
                 </div>
                 <div className="flex items-center gap-3">
                   <FaMobileAlt />
-                  <p>+254 746056315</p>
+                  <p>+254 778 136 430</p>
                 </div>
               </div>
             </div>
+          </div>
+          <div>
+            <p>Copy right 2024</p>
           </div>
 
         </div>

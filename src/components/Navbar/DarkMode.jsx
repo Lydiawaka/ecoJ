@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import LightButton from '../../assets/light.jpeg';
 import DarkButton from '../../assets/Dark.jpeg';
 
